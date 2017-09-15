@@ -1,6 +1,6 @@
 .portfolio-header {
   position: relative;
-  background-image: url(images/header-bg.jpg);
+  background-image: url(../images/pink-header-bg.jpg);
 }
 
 .portfolio-header .mdl-layout__header-row {
@@ -21,7 +21,7 @@
 }
 
 .portfolio-logo-row {
-  min-height: 200px;
+  min-height: 350px;
 }
 
 .is-compact .portfolio-logo-row {
@@ -29,10 +29,10 @@
 }
 
 .portfolio-logo {
-  background: url(images/logo.png) 50% no-repeat;
+  background: url(../images/sft-logo.png) 50% no-repeat;
   background-size: cover;
-  height: 150px;
-  width: 150px;
+  height: 250px;
+  width: 450px;
   margin: auto auto 10px;
 }
 
