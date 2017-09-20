@@ -1,11 +1,12 @@
-/* Styling for MD icons */
+/* Begin styling for Contact icons */
 .material-icons.md-18 { font-size: 18px; }
 .material-icons.md-24 { font-size: 24px; }
 .material-icons.md-36 { font-size: 36px; }
 .material-icons.md-48 { font-size: 48px; }
+.material-icons.md-96 { font-size: 96px; }
 .material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
 .material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
-/* Styling for MD icons */
+/* End styling for Contact icons */
 
 .portfolio-header {
   position: relative;
@@ -30,7 +31,7 @@
 }
 
 .portfolio-logo-row {
-  min-height: 350px;
+  min-height: 350px; /* SFT */
 }
 
 .is-compact .portfolio-logo-row {
@@ -40,8 +41,8 @@
 .portfolio-logo {
   background: url(../images/sft-logo.png) 50% no-repeat;
   background-size: cover;
-  height: 327px;
-  width: 450px;
+  height: 327px; /* SFT */
+  width: 450px; /* SFT */
   margin: auto auto 10px;
 }
 
@@ -54,10 +55,10 @@
 .portfolio-navigation-row {
   background-color: rgba(0, 0, 0, 0.08);
   text-transform: uppercase;
-  height: 45px;
+  height: 45px; /* SFT */
 }
 
-.portfolio-navigation-row  .mdl-navigation {
+.portfolio-navigation-row .mdl-navigation {
   text-align: center;
   max-width: 900px;
   width: 100%;
@@ -68,6 +69,7 @@
       -ms-flex: 1;
           flex: 1;
   line-height: 42px;
+  color: #525354; /* SFT */
 }
 
 .portfolio-header .mdl-layout__drawer-button {
@@ -77,6 +79,7 @@
 .portfolio-navigation-row .is-active {
   position: relative;
   font-weight: bold;
+  color: #2c2d2d;  /* SFT */
 }
 
 .portfolio-navigation-row .is-active:after {
@@ -173,7 +176,11 @@ img.article-image {
 }
 
 footer {
-  background-image: url(images/footer-background.png);
+  background-image: url(../images/footer-background.png);
   background-size: cover;
 }
 
+
+/* Begin styling for SFT */
+.sft-navtext { color: black; }
+/* End styling for SFT */
