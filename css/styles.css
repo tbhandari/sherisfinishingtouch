@@ -34,16 +34,18 @@
 }
 
 .portfolio-logo {
-  background: url(../images/sft-logo.png) 50% no-repeat;
+  background: url(../images/sft-logo2.png) 50% no-repeat; /* SFT */
   background-size: cover;
+  /* height: 327px;  SFT */
+  /* width: 450px;  SFT */
   height: 327px; /* SFT */
-  width: 450px; /* SFT */
+  width: 600px; /* SFT */
   margin: auto auto 10px;
 }
 
 .is-compact .portfolio-logo {
   height: 50px;
-  width: 50px;
+  width: 150px; /* SFT */
   margin-top: 7px;
 }
 
