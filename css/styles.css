@@ -38,8 +38,10 @@
   background-size: cover;
   /* height: 327px;  SFT */
   /* width: 450px;  SFT */
-  height: 327px; /* SFT */
-  width: 600px; /* SFT */
+  /* height: 327px; SFT */
+  /* width: 600px; SFT */
+  height: 102px; /* SFT */
+  width: 192px; /* SFT */
   margin: auto auto 10px;
 }
 
