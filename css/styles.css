@@ -3,9 +3,11 @@
 .material-icons.md-pink { color: #feccff; }
 /* End styling for Contact icons */
 
+
+/* Background image for header section above menu bar */
 .portfolio-header {
   position: relative;
-  background-image: url(../images/pink-header-bg.jpg);
+  background-image: url(../images/pink-polka-dot-header-bg.jpg); /* SFT */
 }
 
 .portfolio-header .mdl-layout__header-row {
@@ -38,10 +40,10 @@
   background-size: cover;
   /* height: 327px;  SFT */
   /* width: 450px;  SFT */
-  /* height: 327px; SFT */
-  /* width: 600px; SFT */
-  height: 102px; /* SFT */
-  width: 192px; /* SFT */
+  height: 327px; /* SFT */
+  width: 600px; /* SFT */
+  /* height: 102px;  SFT */
+  /* width: 192px;  SFT */
   margin: auto auto 10px;
 }
 
