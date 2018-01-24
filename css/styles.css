@@ -27,34 +27,37 @@
   display: none;
 }
 
+/* Height for header section */
 .portfolio-logo-row {
-  min-height: 350px; /* SFT */
+  min-height: 250px; /* SFT */
 }
 
 .is-compact .portfolio-logo-row {
   min-height: auto;
 }
 
+/* Main SFT Logo - large screen size */
 .portfolio-logo {
   background: url(../images/sft-logo.png) 50% no-repeat; /* SFT */
   background-size: cover;
-  /* height: 327px;  SFT */
-  /* width: 450px;  SFT */
-  height: 327px; /* SFT */
-  width: 600px; /* SFT */
-  /* height: 102px;  SFT */
-  /* width: 192px;  SFT */
+  /* height: 327px; /* SFT */
+  /* width: 600px; /* SFT */
+  height: 250px;  /* SFT */
+  width: 469px;  /* SFT */
   margin: auto auto 10px;
 }
 
+/* Main SFT Logo - small screen size */
 .is-compact .portfolio-logo {
-  height: 50px;
-  width: 150px; /* SFT */
+  height: 79px;  /* SFT */
+  width: 150px;  /* SFT */
   margin-top: 7px;
 }
 
+/* Main menu bar */
 .portfolio-navigation-row {
-  background-color: rgba(0, 0, 0, 0.08);
+  /* background-color: rgba(0, 0, 0, 0.08);  gray transparent */
+  background-color: rgba(255, 255, 255, 1);  /* white opaque */
   text-transform: uppercase;
   height: 45px; /* SFT */
 }
