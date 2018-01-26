@@ -4,10 +4,14 @@
 /* End styling for Contact icons */
 
 
+
 /* Background image for header section above menu bar */
 .portfolio-header {
   position: relative;
   background-image: url(../images/pink-polka-dot-header-bg.jpg); /* SFT */
+  /* Next two lines keep header from displaying full width */
+  max-width: 70%;
+  margin: 0 auto;
 }
 
 .portfolio-header .mdl-layout__header-row {
