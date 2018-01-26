@@ -33,7 +33,7 @@
 
 /* Height for header section */
 .portfolio-logo-row {
-  min-height: 250px; /* SFT */
+  min-height: 265px; /* SFT */
 }
 
 .is-compact .portfolio-logo-row {
@@ -81,7 +81,7 @@
 }
 
 .portfolio-header .mdl-layout__drawer-button {
-    background-color: rgba(197, 197, 197, 0.44);
+  background-color: rgba(197, 197, 197, 0.44);
 }
 
 .portfolio-navigation-row .is-active {
@@ -191,11 +191,17 @@ footer {
 
 /* Begin styling for SFT */
 .sft-navtext { color: black; }
+
 .sft-footertext { 
-    -webkit-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
-    line-height: 42px;
-    color: #feccff;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  line-height: 42px;
+  color: #feccff;
+}
+
+.sft-sspc {
+  max-width: 70%;
+  margin: 0 auto;
 }
 /* End styling for SFT */
