@@ -47,3 +47,15 @@ handlers:
 - url: /mission.html
   static_files: mission.html
   upload: mission.html
+
+- url: /appointments.html
+  static_files: appointments.html
+  upload: appointments.html
+
+- url: /faq.html
+  static_files: faq.html
+  upload: faq.html
+
+- url: /insurance.html
+  static_files: insurance.html
+  upload: insurance.html
