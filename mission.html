@@ -33,7 +33,7 @@
 </head>
 <body>
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-        <!-- Begin Header/Navigation Section -->
+        <!-- Begin Header Section -->
         <header class="mdl-layout__header mdl-layout__header--waterfall portfolio-header">
             <div class="mdl-layout__header-row portfolio-logo-row">
                 <span class="mdl-layout__title">
@@ -41,28 +41,42 @@
                     <!-- <span class="mdl-layout__title">Sheri's Finishing Touch</span> -->
                 </span>
             </div>
-            <div class="mdl-layout__header-row portfolio-navigation-row mdl-layout--large-screen-only">
-                <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font">
-                    <a class="mdl-navigation__link" href="index.html">Home</a>
-                    <a id = "aboutpage" class="mdl-navigation__link is-active" href="about.html">About</a>
-                    <a class="mdl-navigation__link" href="products.html">Products</a>
-                    <a class="mdl-navigation__link" href="contact.html">Contact</a>
-                </nav>
-            </div>
         </header>
-        <ul class="mdl-menu " for="aboutpage">
-            <li class="mdl-menu__item">Mission Statement</li>
-        </ul>
-
-        <div class="mdl-layout__drawer mdl-layout--small-screen-only">
+        <!-- End Header Section -->
+        
+        <!-- Begin Navigation Section -->
+        <div class="mdl-layout__header-row portfolio-navigation-row mdl-layout--large-screen-only">
             <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font">
                 <a class="mdl-navigation__link" href="index.html">Home</a>
-                <a class="mdl-navigation__link is-active" href="about.html">About</a>
+                <a id="about_menu_lnk" class="mdl-navigation__link mdl-js-button is-active" href="#">About</a>
+                <ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="about_menu_lnk">
+                    <li class="mdl-menu__item"><a class="mdl-navigation__link" href="about.html">About</a></li>
+                    <li class="mdl-menu__item"><a class="mdl-navigation__link" href="appointments.html">Appointments</a></li>
+                    <li class="mdl-menu__item"><a class="mdl-navigation__link" href="insurance.html">Insurance</a></li>
+                    <li class="mdl-menu__item"><a class="mdl-navigation__link" href="faq.html">FAQ</a></li>
+                    <li class="mdl-menu__item"><a class="mdl-navigation__link" href="mission.html">Mission</a></li>
+                </ul>
                 <a class="mdl-navigation__link" href="products.html">Products</a>
                 <a class="mdl-navigation__link" href="contact.html">Contact</a>
             </nav>
         </div>
-        <!-- End Header/Navigation Section -->
+        <div class="mdl-layout__drawer mdl-layout--small-screen-only">
+            <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font">
+                <a class="mdl-navigation__link" href="index.html">Home</a>
+                <a id="about_menu_lnk_small" class="mdl-navigation__link is-active" href="#">About</a>
+                <ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="about_menu_lnk_small">
+                    <li class="mdl-menu__item"><a class="mdl-navigation__link" href="about.html">About</a></li>
+                    <li class="mdl-menu__item"><a class="mdl-navigation__link" href="appointments.html">Appointments</a></li>
+                    <li class="mdl-menu__item"><a class="mdl-navigation__link" href="insurance.html">Insurance</a></li>
+                    <li class="mdl-menu__item"><a class="mdl-navigation__link" href="faq.html">FAQ</a></li>
+                    <li class="mdl-menu__item"><a class="mdl-navigation__link" href="mission.html">Mission</a></li>
+                </ul>
+                <a class="mdl-navigation__link" href="products.html">Products</a>
+                <a class="mdl-navigation__link" href="contact.html">Contact</a>
+            </nav>
+        </div>
+        <!-- End Navigation Section -->
+
         
         
         

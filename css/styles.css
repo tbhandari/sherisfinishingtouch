@@ -14,6 +14,16 @@
   margin: 0 auto;
 }
 
+/** Added by TemplateFlip **/
+.mdl-layout__header-row {
+  width: 100%;
+}
+
+.portfolio-navigation-row .mdl-navigation {
+  margin: 0 auto; 
+}
+/* End */
+
 .portfolio-header .mdl-layout__header-row {
   padding: 0;
   -webkit-justify-content: center;
