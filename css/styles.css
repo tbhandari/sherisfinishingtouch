@@ -214,4 +214,9 @@ footer {
   max-width: 70%;
   margin: 0 auto;
 }
+
+.sft-caption-text {
+  text-align: justify;
+  text-justify: inter-word;
+}
 /* End styling for SFT */
