@@ -206,7 +206,6 @@ footer {
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
-  line-height: 42px;
   color: #feccff;
 }
 
@@ -218,5 +217,14 @@ footer {
 .sft-caption-text {
   text-align: justify;
   text-justify: inter-word;
+}
+
+.sft-footer-text {
+  text-align: justify;
+  text-justify: inter-word;
+  padding: 0;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 /* End styling for SFT */
