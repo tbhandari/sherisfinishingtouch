@@ -41,9 +41,14 @@
   display: none;
 }
 
-/* Height for header section */
+/* Height for header section - large screen size */
 .portfolio-logo-row {
   min-height: 265px; /* SFT */
+}
+
+/* Height for header section - small screen size */
+.portfolio-logo-row-small {
+  min-height: 94px; /* SFT */
 }
 
 .is-compact .portfolio-logo-row {
@@ -54,11 +59,18 @@
 .portfolio-logo {
   background: url(../images/sft-logo.png) 50% no-repeat; /* SFT */
   background-size: cover;
-  /* height: 327px; /* SFT */
-  /* width: 600px; /* SFT */
   height: 250px;  /* SFT */
   width: 469px;  /* SFT */
   margin: auto auto 10px;
+}
+
+/* Main SFT Logo - small screen size */
+.portfolio-logo-small {
+  background: url(../images/sft-logo.png) 50% no-repeat; /* SFT */
+  background-size: cover;
+  height: 79px;  /* SFT */
+  width: 150px;  /* SFT */
+  margin-top: 7px;
 }
 
 /* Main SFT Logo - small screen size */
