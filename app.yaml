@@ -16,6 +16,9 @@ handlers:
 - url: /js
   static_dir: js
 
+- url: /node_modules
+  static_dir: node_modules
+
 - url: /robots.txt
   static_files: robots.txt
   upload: robots.txt
@@ -59,3 +62,7 @@ handlers:
 - url: /insurance.html
   static_files: insurance.html
   upload: insurance.html
+
+- url: /package-lock.json
+  static_files: package-lock.json
+  upload: package-lock.json

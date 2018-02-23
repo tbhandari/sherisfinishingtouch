@@ -210,6 +210,11 @@ footer {
   background-size: cover;
 }
 
+/* Overridding default MDL box-shadow effect */
+.mdl-shadow--4dp {
+  /*box-shadow: 0 4px 5px 0 rgba(252, 99, 201,.14),0 1px 10px 0 rgba(252, 99, 201,.2),0 2px 4px -1px rgba(252, 99, 201,.2);*/
+  box-shadow: 4px 5px 4px 2px rgba(252, 99, 201,.20), -0.2px -0.2px 2px 2px rgba(252, 99, 201,.10);
+}
 
 /* Begin styling for SFT */
 .sft-navtext { color: black; }
@@ -238,5 +243,19 @@ footer {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
+}
+
+.sft-white-background {
+  background-color: rgba(255, 255, 255, 1);  /* white opaque */
+}
+
+.sft-img-border {
+  border: 5px solid pink;
+}
+
+.sft-carousel {
+  height: 330px;
+  width: 280px;
+  max-width: 70%;
 }
 /* End styling for SFT */
