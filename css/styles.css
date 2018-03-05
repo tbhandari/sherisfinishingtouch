@@ -257,5 +257,6 @@ footer {
   height: 330px;
   width: 280px;
   max-width: 70%;
+  margin: 0 auto;
 }
 /* End styling for SFT */
