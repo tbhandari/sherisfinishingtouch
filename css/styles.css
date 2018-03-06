@@ -5,10 +5,14 @@
 
 
 
-/* Background image for header section above menu bar */
+/* Background for header section */
 .portfolio-header {
   position: relative;
-  background-image: url(../images/pink-polka-dot-header-bg.jpg); /* SFT */
+  /* background-image: url(../images/pink-polka-dot-header-bg.jpg); SFT */
+  /* background-color: rgba(255, 255, 255, 1);  white opaque */
+  background-color: #322333;  /* dark purple */
+  background-color: #3D263F;  /* dark purple */
+  background-color: #4D2A50;  /* dark purple */
   /* Next two lines keep header from displaying full width */
   max-width: 70%;
   margin: 0 auto;
@@ -83,7 +87,7 @@
 /* Main menu bar */
 .portfolio-navigation-row {
   /* background-color: rgba(0, 0, 0, 0.08);  gray transparent */
-  background-color: rgba(255, 255, 255, 1);  /* white opaque */
+  /* background-color: rgba(255, 255, 255, 1);  white opaque */
   text-transform: uppercase;
   height: 45px; /* SFT */
 }
@@ -213,7 +217,7 @@ footer {
 /* Overridding default MDL box-shadow effect */
 .mdl-shadow--4dp {
   /*box-shadow: 0 4px 5px 0 rgba(252, 99, 201,.14),0 1px 10px 0 rgba(252, 99, 201,.2),0 2px 4px -1px rgba(252, 99, 201,.2);*/
-  box-shadow: 4px 5px 4px 2px rgba(252, 99, 201,.20), -0.2px -0.2px 2px 2px rgba(252, 99, 201,.10);
+  box-shadow: 1px 2px 4px 2px rgba(252, 99, 201,.20), -0.2px -0.2px 2px 2px rgba(252, 99, 201,.10);
 }
 
 /* Begin styling for SFT */
@@ -240,9 +244,9 @@ footer {
   text-align: justify;
   text-justify: inter-word;
   padding: 0;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+  /* Next two lines keep header from displaying full width */
+  max-width: 70%;
+  margin: 0 auto;
 }
 
 .sft-white-background {
@@ -258,5 +262,10 @@ footer {
   width: 280px;
   max-width: 70%;
   margin: 0 auto;
+}
+
+.sft-pink-polka-dot-background {
+  background-image: url(../images/pink-polka-dot-header-bg2.jpg);
+  background-color: #ffffff;
 }
 /* End styling for SFT */
