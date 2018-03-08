@@ -9,10 +9,8 @@
 .portfolio-header {
   position: relative;
   /* background-image: url(../images/pink-polka-dot-header-bg.jpg); SFT */
-  /* background-color: rgba(255, 255, 255, 1);  white opaque */
-  background-color: #322333;  /* dark purple */
-  background-color: #3D263F;  /* dark purple */
-  background-color: #4D2A50;  /* dark purple */
+  background-color: rgba(255, 255, 255, 1);  /* white opaque */
+  /* background-color: #4D2A50;  /* dark purple */
   /* Next two lines keep header from displaying full width */
   max-width: 70%;
   margin: 0 auto;
@@ -230,11 +228,6 @@ footer {
   color: #feccff;
 }
 
-.sft-sspc {
-  max-width: 70%;
-  margin: 0 auto;
-}
-
 .sft-caption-text {
   text-align: justify;
   text-justify: inter-word;
@@ -267,5 +260,9 @@ footer {
 .sft-pink-polka-dot-background {
   background-image: url(../images/pink-polka-dot-header-bg2.jpg);
   background-color: #ffffff;
+}
+
+.sft-sspc-member {
+  float: left;
 }
 /* End styling for SFT */
