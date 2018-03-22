@@ -221,6 +221,11 @@ footer {
 /* Begin styling for SFT */
 .sft-navtext { color: black; }
 
+.sft-monotypecorsiva {
+  font-family: "Monotype Corsiva", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-size: 125%;
+}
+
 .sft-footertext { 
   -webkit-flex: 1;
   -ms-flex: 1;
