@@ -5,7 +5,7 @@
 	Graphic Designer: 
 	
 /* SITE */
-	Last update: 2018/03/08
+	Last update: 2018/04/10
 	Doctype: HTML5
 	Components: Material Design Lite, jQuery, HTML5, CSS3, JavaScript
 	Software: Notepad++, git
