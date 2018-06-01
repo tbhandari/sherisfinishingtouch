@@ -271,4 +271,12 @@ footer {
 .sft-sspc-member {
   float: left;
 }
+
+.sft-shop-now {
+  padding: 0;
+  text-align: center;
+  /* Next two lines keep header from displaying full width */
+  margin: 0 auto;
+}
+
 /* End styling for SFT */
